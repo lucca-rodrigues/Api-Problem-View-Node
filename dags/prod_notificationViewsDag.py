@@ -18,7 +18,7 @@ dag = DAG(
     tags=["prod"]
 )
 
-api_url = 'https://api-problem-views.frstfalconi.cloud/api/v1/views'
+api_url = 'API_HERE/api/v1/views'
 
 curl_command = f'curl -X GET {api_url} -H "Content-Type: application/json"'
 
